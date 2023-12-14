@@ -1,0 +1,61 @@
+.contact{
+    width: 100%;
+    overflow: hidden;
+    background-color:var(--primary-color);
+
+}
+.contact .container{
+    height: 100vh;
+    min-height: 700px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+.contact .container >div{
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+}
+.left{
+    width: 100%;
+    max-width: 80ren;
+    margin: 0 auto;
+    padding: 65px 1.5rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    position: relative;
+    z-index: 3;
+}
+.contact-heading h1{
+    font-weight: 600;
+    color: var(--white);
+    font-size: 3.5rem;
+    line-height: 0.9;
+    white-space: nowrap;
+    margin-bottom: 1.2rem;
+}
+.contact-heading h1 span{
+    color: blue;
+}
+.text{
+    color: var(--white);
+    line-height: 1.1;
+    font-size: 1rem;
+
+}
+.text a{
+    color: blue;
+    transition: 3s;
+}
+.text a hover{
+    color: blue;
+    transition: 3s;
+}
+.contact-form{
+    display: grid;
+    margin-top: 2.55rem;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+    row-gap: 1rem;
+}

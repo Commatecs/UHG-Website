@@ -81,7 +81,6 @@ export const Project = () => {
                         <h2>Commatecs is a Software House</h2>
                         <h3>Commatecs is a Software House We do all kind of Software Solutions Á& Artificial Intelligence (AI)</h3>
                         <a>https://commatecs.com/</a>
-                        {/* <img src='https://i.pinimg.com/736x/2c/7a/76/2c7a7624c71d8f6bd44bd813035ee122.jpg' /> */}
                     </div>
                 </div>
                 <div className='carousel-item'>
@@ -90,7 +89,6 @@ export const Project = () => {
                         <h2>Online Store (Soon)</h2>
                         <h3>To provide the technology devices to serve the business community in the easiest, cheapest and most guaranteed way.</h3>
                         <a>https://cotecstore.com/</a>
-                        {/* <img src='https://i.pinimg.com/736x/2c/7a/76/2c7a7624c71d8f6bd44bd813035ee122.jpg' /> */}
                     </div>
                 </div>
             </Carousel>

@@ -9,6 +9,8 @@ import { Footer } from './components/Footer';
 import { DarkMode } from './components/Darkmood/DarkMode';
 import { LocationMap } from './components/LocationMap';
 import { IntlProvider } from 'react-intl';
+import { ContactUs } from './components/ContactUs';
+
 
 function App() {
   return (
@@ -22,6 +24,7 @@ function App() {
         <Project />
         <LocationMap />
         <Footer />
+        <ContactUs />
       </div>
     </IntlProvider>
   );
