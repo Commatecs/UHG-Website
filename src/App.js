@@ -8,19 +8,22 @@ import { Project } from './components/ProjectSection';
 import { Footer } from './components/Footer';
 import { DarkMode } from './components/Darkmood/DarkMode';
 import { LocationMap } from './components/LocationMap';
+import { IntlProvider } from 'react-intl';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Landing />
-      <Goals />
-      <Success/>
-      <Information/>
-      <Project />
-      <LocationMap />
-      <Footer/>
-    </div>
+    <IntlProvider>
+      <div className="App">
+        <Navbar />
+        <Landing />
+        <Goals />
+        <Success />
+        <Information />
+        <Project />
+        <LocationMap />
+        <Footer />
+      </div>
+    </IntlProvider>
   );
 }
 
