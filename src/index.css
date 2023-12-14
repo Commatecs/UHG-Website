@@ -1,0 +1,39 @@
+:root{
+  
+  --primary-color:#ffffff;
+  --primary-color-light:#cacaca;
+  --primary-color-extra-light:#f7f7f7;
+  --secondary-color:#f9ac54;
+  --secondary-color-dark:#d79447;
+  --text-light:#220602;
+  --white:#1f2125;
+  --max-width: 1200px;
+}
+
+[data-theme=dark]{
+  --primary-color:#111317;
+  --primary-color-light:#1f2125;
+  --white:#ffffff;
+  --primary-color-extra-light:#35373b;
+  --text-light:#d1d5db;
+
+}
+
+* {
+  box-sizing: border-box;
+  color: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+    background-color: var(--primary-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

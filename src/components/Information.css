@@ -1,0 +1,15 @@
+
+.section__header{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    color:var(--white);
+}     
+.section__subheader{
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    color: var(--text-light);
+
+}
