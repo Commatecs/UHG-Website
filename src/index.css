@@ -1,5 +1,10 @@
 :root{
-  
+  --main-hue: 208;
+  --main-color:hsl(var(--main-hue), 92%, 54%);
+  --main-color-hover:hsl(var(--main-hue), 77%, 48%);
+  --input-bg: hsla(var(--main-hue),50%, 50%, 6.5%);
+  --input-bg-hover: hsla(var(--main-hue),50%, 50%, 14%);
+
   --primary-color:#ffffff;
   --primary-color-light:#cacaca;
   --primary-color-extra-light:#f7f7f7;

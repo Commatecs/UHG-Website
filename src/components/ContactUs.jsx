@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './ContactUs.css'
 
+
 export const ContactUs = () => {
+
   return (
     <div>
     <main>
@@ -11,33 +13,40 @@ export const ContactUs = () => {
                     <div className="from-wrapper">
                         <div className="contact-heading">
                             <h1>Let's work together<span>.</span></h1>
-                            <p className="text">0r reach us via :
+                            <p className="text">Or reach us via :
                              <a href='malito:Publius@mail.com'> Publius@mail.com</a></p>
                         </div>
                         <form action="ContactUs.jsx" method='post' className="contact-form">
                             <div className="input-warp">
-                                <input className='contact input' autoComplete='off' name='First 
+                                <input className='contact-input' autoComplete='off' name='First 
                                 Name' type="text" required/>
                                <label>Frist Name</label>
-                               <i class="bi bi-person-vcard-fill"></i>
+                               <i class="icon bi bi-person-vcard-fill"></i>
                             </div>
                             <div className="input-warp">
-                                <input className='contact input' autoComplete='off' name='Last 
+                                <input className='contact-input' autoComplete='off' name='Last 
                                 Name' type="text" required/>
                                <label>Last Name</label>
-                               <i class="bi bi-person-vcard-fill"></i>
+                               <i class="icon bi bi-person-vcard-fill"></i>
                             </div>
-                            <div className="input-warp">
-                                <input className='contact input' autoComplete='off' name='Email'
+                            <div className="input-warp w-100">
+                                <input className='contact-input' autoComplete='off' name='Email'
                                  type="email" required/>
                                <label>Email</label>
-                               <i class="bi bi-envelope-fill"></i>
+                               <i class="icon bi bi-envelope-fill"></i>
                             </div>
-                            <div className="input-warp">
+                            <div className="input-warp w-100">
                                 <textarea name="Massage" autoComplete='off'
-                                 className="contact-input"required></textarea>
+                                 className='contact-input'required></textarea>
                                <label>Massage</label>
-                               <i class="bi bi-inbox-fill"></i>
+                               <i class="icon bi bi-inbox-fill"></i>
+                            </div>
+                            <div className="contact-buttons">
+                                <button className="btn upload">
+                                    <span><i class="ri-attachment-2"></i>Add attachment</span>
+                                    <input type="file" className="attachment" />
+                                </button>
+                                <input type="submit" value="Send massage" className='btn' />
                             </div>
                         </form>
                     </div>
@@ -46,6 +55,7 @@ export const ContactUs = () => {
             </div>
         </section>
     </main>
+    
     </div>
   )
 }

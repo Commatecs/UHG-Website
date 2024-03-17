@@ -10,6 +10,7 @@ import { DarkMode } from './components/Darkmood/DarkMode';
 import { LocationMap } from './components/LocationMap';
 import { IntlProvider } from 'react-intl';
 import { ContactUs } from './components/ContactUs';
+import { AboutSection } from './components/AboutSection';
 
 
 function App() {
@@ -20,11 +21,13 @@ function App() {
         <Landing />
         <Goals />
         <Success />
+        <AboutSection/>
         <Information />
         <Project />
         <LocationMap />
-        <Footer />
         <ContactUs />
+        <Footer />
+        
       </div>
     </IntlProvider>
   );
